@@ -1,0 +1,228 @@
+.body {
+margin-top:0 px;
+   
+
+}
+.header {
+    padding-top: 94px;
+    padding-left: 165px;
+    background-color: #eD4C5C;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato';
+    display: flex;
+}
+
+.top_of_header {
+ width: 48%;
+
+}
+
+.slogan {
+    
+   
+font-size: 36px;
+font-weight: 600;
+padding-top: 122px;
+}
+
+
+.tips_for_saving {
+    color: #fff;
+   
+    font-size: 14px;
+font-weight: 400;
+
+}
+
+.img4 {
+
+  width: 48%;
+  height: auto;
+  right: 100px;
+  top: 94px;
+  margin-bottom: 94px;
+}
+
+.logos {
+    display: flex;
+    width: 100px;
+    margin-top: 44px;
+    
+}
+
+.contact_inform {
+    display: flex;
+    
+}
+
+.contact_inform form {
+    width: 48%;
+    padding-top: 117px;
+}
+.main_inf {
+    padding-left: 176px;
+    padding-top: 117px;
+    font-family: 'Lato';
+    height: auto;
+    background-color: #fff;
+    width: 48%;
+}
+
+.main_inf header {
+    font-style: SemiBold;
+    font-size: 36px;
+    width: 445px;
+    height: auto;
+}
+.main_inf p {
+    font-size: 14px;
+    font-style: regular;
+    width: 434px;
+}
+
+.logos {
+    display: flex;
+    
+}
+
+.logos img {
+    margin-right: 30px;
+
+}
+
+.personal_information {
+    display: flex;
+}
+
+.personal_information input {
+    width: 255px;
+    height: 60px; 
+    
+}
+.input_style {
+    border-color: #333333;
+    border: solid 1px;
+    border-radius: 6px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.input_style::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lato';
+    padding-left: 31px;
+    color: rgba(19, 39, 67, 0.5);
+}
+.name {
+    margin-right: 20px;
+}
+
+
+.phone {
+    width: 540px;
+    height: 60px;
+    padding: 0px;
+}
+
+
+.selector  {
+    padding-left: 31px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lato';;
+    color: rgba(19, 39, 67, 0.5);
+    width: 540px;
+    height: 60px;
+}
+    
+.submit_button {
+    color: white;
+    background-color: #ED4C5C;
+    
+    padding: 17px 34px;
+    border-radius: 6px;
+    height: auto;
+    width: 160px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400px;
+  
+}
+
+footer {
+    margin-top: 45px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+
+.address h3  {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400px;
+}
+.address address {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.services h3  {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400px;
+}
+.services p {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.socialmedia {
+    display: flex;
+
+}
+.socialmedia a {
+    margin-right: 30px;
+}
+.connection h3  {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400px;
+}
+.connection p {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.support h3  {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400px;
+}
+
+.year  {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 0px;
+    padding:85px 165px;
+  
+    height: auto;
+    background-color: #FAFAFA;
+}
