@@ -96,7 +96,7 @@ font-weight: 400;
 }
 
 .personal_information input {
-    width: 255px;
+    width: 225px;
     height: 60px; 
     
 }
@@ -106,35 +106,35 @@ font-weight: 400;
     border-radius: 6px;
     height: auto;
     margin-bottom: 10px;
+    padding-left: 31px;
 }
 
 .input_style::placeholder {
     font-size: 12px;
     font-weight: 400;
     font-family: 'Lato';
-    padding-left: 31px;
     color: rgba(19, 39, 67, 0.5);
 }
+
 .name {
     margin-right: 20px;
 }
 
 
 .phone {
-    width: 540px;
+    width: 505px;
     height: 60px;
-    padding: 0px;
 }
 
 
 .selector  {
-    padding-left: 31px;
     font-size: 12px;
     font-weight: 400;
     font-family: 'Lato';;
     color: rgba(19, 39, 67, 0.5);
     width: 540px;
     height: 60px;
+    background-color: white;
 }
     
 .submit_button {
@@ -222,7 +222,6 @@ footer {
     font-style: normal;
     margin: 0px;
     padding:85px 165px;
-  
     height: auto;
     background-color: #FAFAFA;
 }
