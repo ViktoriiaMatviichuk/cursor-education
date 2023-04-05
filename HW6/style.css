@@ -1,0 +1,393 @@
+body {
+    background-color: rgba(212, 212, 212, 0.927);
+}.all_page {
+    background-color: rgb(247, 247, 247);
+    max-width: 1600px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 50px;
+    color: #212353;
+
+}
+
+.header {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-left: 81px;
+
+    
+}
+.menu a {
+    text-decoration: none;
+    color: #4B5D68;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 40px;
+}
+
+.menu li {
+    display: inline;
+    color: rgb(156, 105, 226);
+}
+
+.request_button {
+background-color: white;
+border: none;
+height: 60px;
+width: 210px;
+border-radius: 50px;
+font-family: 'Lato', sans-serif;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+margin-left: 418px;
+cursor: pointer;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    width: 645px;
+
+}
+.learnmore_button {
+    background-color: #9C69E2;
+    border-radius: 50px;
+    border: none;
+    width: 170px;
+    height: 60px;
+    margin-top: 50px;
+    }
+
+.learnmore  {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+  
+}
+
+.data_inf {
+font-weight: 500;
+font-size: 18px;
+color: #4B5D68;
+font-family: 'Lato', sans-serif;
+width: 380px;
+}
+
+.about {
+    font-weight: 800;font-size: 16px;color: #212353;
+}
+
+.searching_girl {
+  position: absolute;
+top:500px;
+right: 112px;
+z-index: -1;
+}
+.pink_section {
+    display: flex;
+    justify-content: center;
+}
+
+.data_bank {
+display: flex;
+justify-content: space-around;
+
+background-color: rgba(240, 99, 184, 0.15);
+border-radius: 50px;
+width: 1117px;
+height: 560px;
+font-family: 'Lato', sans-serif;
+
+}
+
+.data_bank img {
+    width: 477px;
+    height: 504px;
+}
+
+.data_bank h3 {
+font-weight: 700;
+font-size: 40px;
+color: #212353;
+margin-top: 125px;
+margin-right: 93px;
+width: 475px;
+}
+
+.data_bank p {
+    color: #4B5D68;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 93px;
+    width: 475px;
+    
+}
+
+
+.feaches p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.feaches h2 {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.possibitities {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.block {
+    display: flex;
+    justify-content: flex-start;
+}
+.block h4 {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+.block p {
+    color: #4B5D68;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.block input {
+    font-weight: 900;
+    font-size: 16px;
+    color: #212353;
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.key {
+    display: flex;
+    justify-content: center;
+}
+.tesrimonials {
+    background: #9C69E2;
+border-radius: 50px;
+width: 1118px;
+height: auto;
+padding: 109px 73px 62px 93px;
+margin: 0px;
+
+}
+
+.tesrimonials h2 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+}
+
+.white_box {
+    width: 949px;
+    height: 330px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 102px;
+    padding-top: 60px;
+    box-shadow: 0 20px 0 rgb(156, 105, 168);
+   
+    
+}
+
+.white_box img {
+width: 132.42px;
+height: 90px;
+margin-right: 44px;
+}
+.white_box p {
+    width: 566px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0px;
+    color: #4B5D68;
+}
+
+.white_box h5 {
+    font-weight: 900;
+font-size: 18px;
+color: #212353;
+}
+
+.white_box a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #9C69E2;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+    margin-right: 65px;
+}
+
+.pink_dot {
+    color: #F063B8;
+    font-size: 40px;
+   
+}
+
+.dots {
+    color: white;
+    font-size: 40px;
+}
+.arrow_left {
+    color: white;
+    font-size: 40px;
+}
+.arrow_right {
+    color: white;
+    opacity: 50%;
+    font-size: 40px;
+}
+
+hr {
+    color: #9C69E2;
+    max-width: 100%;
+    margin-top: 150px;
+    margin-bottom: 120px;
+  
+    
+border-width: 3px;
+}
+
+.try_it {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.try_it h3 {
+    font-weight: 700;
+font-size: 40px;
+font-family: 'Lato', sans-serif;
+}
+
+.try_it p {
+    font-weight: 500;
+font-size: 18px;
+color: #4B5D68;
+font-family: 'Lato', sans-serif;
+}
+.learnmore_button2 {
+    background: #F063B8;
+    border-radius: 50px;
+    border: none;
+    width: 170px;
+    height: 60px;
+    margin-top: 50px;
+
+    }
+
+    .socialmedia img {
+        width: 50px;
+        height: 50px;
+        margin-right: 14px;
+    }
+
+    .insta {
+        opacity: 50%;
+    }
+
+    .ending_page {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .address h3 {
+        font-weight: 900;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        display: inline;
+        margin-left: 20px;
+    }
+    .adr {
+        font-weight: 500;
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        font-style: initial;
+        letter-spacing: 0.16px;
+        margin-top: 67px;
+    }
+
+.info {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: initial;
+    margin-top: 10px;
+}
+
+.about h3 {
+    font-weight: 900;
+font-size: 16px;
+font-family: 'Lato', sans-serif;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.help h3 {
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.help p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.social_media h3 {
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between
+}
+
+.year {
+    font-weight: 400;
+font-size: 12px;
+font-family: 'Lato', sans-serif;
+margin-top: 93px;
+padding-bottom: 96px;
+}
