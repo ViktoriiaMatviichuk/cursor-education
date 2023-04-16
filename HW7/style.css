@@ -65,18 +65,12 @@ hr {
     color: #EDA3B5;
     border-bottom: #EDA3B5 solid 2px;
     padding-bottom: 6px;
-    box-sizing: border-box;
-    width: 60%;
+    
+    
+  
   }
 
-  .navigation a:hover {
-
-    border-bottom: #EDA3B5 solid 1px;
-    padding-bottom: 6px;
-    box-sizing: border-box;
-    width: 30%;
-  }
-
+ 
   .more_inf {
     padding-top: 103px;
     padding-left: 165px;
@@ -290,21 +284,17 @@ color: #1B2437;
 margin-top: 0;
 margin-bottom: 35px;
 }
-.backlikes {
-    position: absolute;
-    left: 450px;
-    z-index: 2;
-    margin-top: 10px;
-}
+
 
 .likes {
 position: absolute;
-z-index: 2;
 border: none;
 height: 43px;
 width: 43px;
 border-radius: 50%;
-padding-top: 8px;
+padding-top: 10px;
+right: 10px;
+top: 10px;
 }
 
 .likes:hover {
@@ -312,7 +302,7 @@ padding-top: 8px;
     cursor: pointer;
 }
 .vest {
-   
+    position: relative;
     background-color: white;
     border-radius: 16px;
     padding-bottom: 18px;
