@@ -1,0 +1,498 @@
+body {
+    max-width: 1440px;
+    background-color: #F5F5F5;
+}
+
+.header_main {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 73px;
+    grid-template-columns: 40% 20% 40%;
+    padding-left: 165px;
+    padding-right: 125px;
+    background-color: white;
+}
+
+.header_main h4 {
+    font-family: 'Rochester';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.socialmedia img {
+    margin-right: 40px;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.shop_nav img {
+    margin-right: 40px;
+
+}
+.shop_nav {
+   text-align: right;
+}
+hr {
+    color: #F3F3F3;
+    background-color: white;
+    margin: 0;
+}
+
+.navigation {
+    list-style-type: none;
+    text-align: center;  
+    background-color: white; 
+    margin: 0;
+    padding-bottom: 19px;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: 'Playfair Display';
+    margin-right: 80px;
+}
+
+.navigation a:hover {
+    color: #EDA3B5;
+    border-bottom: #EDA3B5 solid 2px;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    width: 60%;
+  }
+
+  .navigation a:hover {
+
+    border-bottom: #EDA3B5 solid 1px;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    width: 30%;
+  }
+
+  .more_inf {
+    padding-top: 103px;
+    padding-left: 165px;
+    background-image: url(./image/hero.png);
+
+  }
+
+  .more_inf h1 {
+    font-family: 'Playfair Display';
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+    width: 361px;
+    line-height: 67px;
+    margin-bottom: 13px;
+  }
+
+  .more_inf p {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    width: 446px;
+    margin-bottom: 34px;
+  }
+
+  .more_inf button {
+    background-color: #1B2437;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 23px 78px;
+    margin-bottom: 118px;
+    cursor: pointer;
+  }
+
+  .wraper {
+display: flex;
+flex-wrap: wrap;
+padding: 70px 165px;
+
+  }
+  .collections {
+    display: grid;
+    grid-template-rows: 225px 205px;
+    grid-template-columns: 445px 303px 302px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 47px;
+  }
+
+
+  .collections h3 {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    margin: 0 auto;
+  }
+
+
+  .collections p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 auto;
+  }
+
+  .popular_coll {
+    background-image: url(./image/women_collection_category.png);
+    align-content: end;
+    grid-row: 1/3;
+    padding-left: 32px;
+    padding-top: 268px;
+    
+  }
+
+  .popular_coll  h3 {
+    color: white;
+    margin: 0 auto;
+    
+  }
+
+  .popular_coll p {
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .popular_coll button {
+    background-color: rgba(255, 255, 255,0.4);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    padding-left: 22px;
+    padding-right: 22px;
+    height: 30px;
+  }
+
+  .popular_coll button:hover {
+    color: #EDA3B5;
+    box-shadow: #1B2437;
+    
+  }
+
+  .popular_coll:hover {
+    opacity: 50%;
+}
+
+.women_coll {
+background-image: url(./image/Rectangle\ 14.png);
+padding-left: 22px;
+padding-top: 53px;
+}
+
+.women_coll h3 {
+    width: 240px; 
+   margin: 0;
+}
+
+.women_coll:hover {
+    opacity: 50%;
+}
+
+.dresses_coll {
+    background-image: url(./image/dresses_category.png);
+    padding-left: 39px;
+    color: white;
+    padding-top: 53px;
+}
+
+.dresses_coll:hover {
+    opacity: 50%;
+}
+
+.denim {
+    background-image: url(./image/denim_jackets_category.png);
+    grid-column:2/4; 
+    padding-top: 64px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+
+.denim:hover {
+    opacity: 50%;
+}
+
+.brend {
+    display:grid;
+    grid-template-columns: repeat(4,255px);
+    grid-template-rows: 80% 20%;
+    justify-items: center;
+    align-items: end;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 16px;
+    padding-top: 51px;
+    padding-bottom: 24px;
+    margin-bottom: 70px;
+}
+
+.brend img:hover {
+opacity: 50%;
+}
+
+.brend h4:hover {
+   color: bisque;
+    }
+
+.dots {
+    grid-column:1/5;
+    grid-row: 2/3; 
+ 
+}
+.dots span {
+    font-size: 100px;
+   margin: 0px 6px;
+   color: #EFEFF4;
+}
+
+.dots span:hover {
+   color: #EDA3B5;
+         }
+.proposition {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+.like h1 {
+font-family: 'Playfair Display';
+font-weight: 600;
+font-size: 48px;
+line-height: 67px;
+color: #1B2437;
+margin-top: 0;
+margin-bottom: 35px;
+}
+.backlikes {
+    position: absolute;
+    left: 450px;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+.likes {
+position: absolute;
+z-index: 2;
+border: none;
+height: 43px;
+width: 43px;
+border-radius: 50%;
+padding-top: 8px;
+}
+
+.likes:hover {
+    background-color: #00000076;
+    cursor: pointer;
+}
+.vest {
+   
+    background-color: white;
+    border-radius: 16px;
+    padding-bottom: 18px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vest img {
+    margin-bottom: 16px;
+    position: relative;
+}
+.vest h4 {
+    font-family: 'Playfair Display';
+    padding-left: 24px;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.vest p {
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    width: 325px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 27px;
+}
+
+.vest span {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    padding-left: 24px;
+}
+
+.shop {
+font-family: 'Mulish';
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+color:  white;
+background-color: #1B2437;
+border-radius: 15px;
+border: none;
+width: 153px;
+padding: 13px 0px;
+margin-right: 18px;
+}
+
+.shop button:hover {
+    background-color: #EDA3B5;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+    text-align: center;
+    padding: 12px;
+    background-color: white;
+    border-radius: 16px;
+    gap: 30px;
+}
+
+.Contacts img {
+    grid-column: 1/4;
+}
+
+.Contacts p {
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.map {
+    position: relative;
+}
+
+.pointer {
+    position: absolute;
+    top: 3375px;
+    left: 609px;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1B2437;
+    }
+
+    .edditional_inf {
+        display: grid;
+        grid-template-columns: 28% 24% 24% 24%;
+        justify-items: center;
+        gap: 30px;
+        padding: 32px 165px 20px 165px;
+        background-color: white;
+        margin: 0;
+    }
+
+    .edditional_inf h4 {
+        font-family: 'Rochester';
+        font-weight: 400;
+        font-size: 32px;
+        margin: 0;
+        padding-bottom: 16px;
+    }
+
+   
+    .edditional_inf h5 {
+        font-family: 'Playfair Display';
+        font-weight: 900;
+        font-size: 18px;
+        color: #000000;
+        margin: 0;
+        padding-top: 7px;
+        padding-bottom: 22px;
+    }
+
+    .edditional_inf p {
+        font-family: 'Mulish';
+        font-weight: 600;
+        font-size: 16px;
+        color: #8E8E93;
+        margin: 0;
+        padding-bottom: 22px;
+
+    }
+
+    .conclusion p {
+        font-family: 'Playfair Display';
+        font-weight: 500;
+        font-size: 16px;
+        color: #5C5C5C;
+        padding-right: 45px;
+        line-height: 30px;
+      
+    }
+.edditional_inf p {
+    align-items: baseline;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 22px 125px 22px 165px;
+    background-color: #E5E5EA;
+}
+
+footer div {
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 12px;
+    color: #8E8E93;
+
+}
+
+.socialmedia2 img  {
+    margin-right: 40px;
+}
+
+.socialmedia2 {
+    text-align: end;
+}
+
+.day {
+    margin-right: 0px;
+}
