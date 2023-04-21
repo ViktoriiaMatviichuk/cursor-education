@@ -1,0 +1,392 @@
+.space {
+    background-image: url(./images/photo-1534796636912-3b95b3ab5986.jpeg);
+    width: 300px;
+    height: 300px;
+    transform: translate(185% ,0%);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.green {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 3px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: rgb(235, 237, 233);
+    border: 2px solid #ffffff;
+    box-shadow:unset;
+    transform-origin: 100px;
+    animation-name: down_movement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+ 
+   
+}
+
+
+
+@keyframes down_movement {
+    0% {
+        transform: translateY(0pX);
+        opacity: 100%;
+        box-shadow: none;
+   
+    }
+    10% {
+        transform: translateY(-22pX);
+        opacity: 100%;
+        
+        box-shadow: 2px 2px 2px 2px rgba(119, 255, 1, 0.7),
+        1px 2px 4px 0px rgba(88, 255, 4, 0.7),
+        2px 4px 8px 0px rgba(3, 252, 32, 0.7),
+        2px 4px 16px 0px rgba(47, 255, 0, 0.7);
+    }
+   
+    15% {
+        transform: translateY(0pX);
+        opacity: 80%;
+        box-shadow: none;
+   
+    }
+    25% {
+        transform: translateY(-22pX);
+        opacity: 100%;
+        
+        box-shadow: 2px 2px 2px 2px rgba(119, 255, 1, 0.7),
+        1px 2px 4px 0px rgba(88, 255, 4, 0.7),
+        2px 4px 8px 0px rgba(3, 252, 32, 0.7),
+        2px 4px 16px 0px rgba(47, 255, 0, 0.7);
+    }
+   
+    35% {
+        transform: translateY(0pX);
+        opacity: 80%;
+        box-shadow: none;
+   
+    }
+    45% {
+        transform: translateY(-22pX);
+        opacity: 100%;
+        
+        box-shadow: 2px 2px 2px 2px rgba(119, 255, 1, 0.7),
+        1px 2px 4px 0px rgba(88, 255, 4, 0.7),
+        2px 4px 8px 0px rgba(3, 252, 32, 0.7),
+        2px 4px 16px 0px rgba(47, 255, 0, 0.7);
+    }
+    49% {
+        transform: translateY(0pX);
+        opacity: 0%;
+        box-shadow: none;
+    }
+    100% {
+        transform: translateY(0pX);
+        opacity: 0%;
+        box-shadow: none;
+    }
+}
+
+.child {
+    position: absolute;
+    background-color: #000000;
+    height: 13px;
+    width: 30px;
+    left: 10px;
+    top: -5px;
+}
+
+.child2 {
+    position: absolute;
+    background-color: #000000;
+    height: 13px;
+    width: 30px;
+    right: 10px;
+    top: -5px;
+}
+.violet {
+    position: relative;
+    width: 200px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    transform-origin: 50%;
+    box-shadow: unset;
+    transform: rotate(0.0turn);
+    animation-name: rotate1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0.0turn);
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+
+    10% {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+        transform: rotate(-0.1turn);
+        box-shadow: 2px 2px 2px 2px rgba(158, 1, 255, 0.7),
+        1px 2px 4px 0px rgba(146, 4, 255, 0.7),
+        2px 4px 8px 0px rgba(94, 3, 252, 0.7),
+        2px 4px 16px 0px rgba(183, 0, 255, 0.7);
+
+    }
+    20% {
+        transform: rotate(0.0turn);
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    30% {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+        transform: rotate(-0.1turn);
+        box-shadow: 2px 2px 2px 2px rgba(158, 1, 255, 0.7),
+        1px 2px 4px 0px rgba(146, 4, 255, 0.7),
+        2px 4px 8px 0px rgba(94, 3, 252, 0.7),
+        2px 4px 16px 0px rgba(183, 0, 255, 0.7);    
+    }
+    40% {
+        transform: rotate(0.0turn);
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    50% {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+        transform: rotate(-0.1turn);
+        box-shadow: 2px 2px 2px 2px rgba(158, 1, 255, 0.7),
+        1px 2px 4px 0px rgba(146, 4, 255, 0.7),
+        2px 4px 8px 0px rgba(94, 3, 252, 0.7),
+        2px 4px 16px 0px rgba(183, 0, 255, 0.7);    
+    }
+    60% {
+        transform: rotate(-0.1turn);
+        background-color: rgba(183, 2, 255, 0.53);
+        border: 2px solid #ab21f56d;
+        box-shadow: 2px 2px 4px 4px rgba(170, 154, 154, 0.506),
+        4px 2px 4px 4px rgba(255, 255, 255, 0.542),
+        4px 6px 8px 0px rgba(255, 253, 255, 0.59),
+        4px 4px 16px 0px rgba(252, 243, 255, 0.414);    
+    }
+    
+    100% {
+        transform: rotate(-0.1turn);
+        height: 5px;
+        background-color: rgb(183, 0, 255);
+        border: 2px solid #ab21f5;
+        box-shadow: 2px 2px 4px 4px rgb(255, 255, 255),
+        4px 2px 4px 4px rgba(255, 255, 255, 0.7),
+        4px 6px 8px 0px rgb(255, 253, 255),
+        4px 4px 16px 0px rgb(252, 243, 255);    
+    }
+}
+
+.red {
+    position: relative;
+    width: 200px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    transform-origin: 60%;
+    box-shadow: unset;
+    animation-name: rotate2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0.0turn);
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    10% {
+        transform: rotate(0.1turn);
+        box-shadow: 2px 2px 2px 2px rgba(255, 1, 1, 0.7),
+        1px 2px 4px 0px rgba(255, 50, 4, 0.7),
+        2px 4px 8px 0px rgba(243, 14, 14, 0.7),
+        2px 4px 16px 0px rgba(255, 0, 0, 0.7);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    20% {
+        transform: rotate(0.0turn);
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    30% {
+        transform: rotate(0.1turn);
+        box-shadow: 2px 2px 2px 2px rgba(255, 1, 1, 0.7),
+        1px 2px 4px 0px rgba(255, 50, 4, 0.7),
+        2px 4px 8px 0px rgba(243, 14, 14, 0.7),
+        2px 4px 16px 0px rgba(255, 0, 0, 0.7);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    40% {
+        transform: rotate(0.0turn);
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    50% {
+        transform: rotate(0.1turn);
+        box-shadow: 2px 2px 2px 2px rgba(255, 1, 1, 0.7),
+        1px 2px 4px 0px rgba(255, 50, 4, 0.7),
+        2px 4px 8px 0px rgba(243, 14, 14, 0.7),
+        2px 4px 16px 0px rgba(255, 0, 0, 0.7);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ffffff;
+    }
+    60% {
+        transform: rotate(0.1turn);
+        background-color: rgba(244, 7, 7, 0.629);
+        border: 2px solid #ff2d2db8;
+        box-shadow: 2px 2px 4px 4px rgba(170, 154, 154, 0.506),
+        4px 2px 4px 4px rgba(255, 255, 255, 0.542),
+        4px 6px 8px 0px rgba(255, 253, 255, 0.59),
+        4px 4px 16px 0px rgba(252, 243, 255, 0.414);   
+    }
+    100% {
+        transform: rotate(0.1turn);
+        height: 5px;
+        background-color: rgb(255, 0, 0);
+        border: 2px solid #f84040;
+        box-shadow: 2px 2px 4px 4px rgb(255, 255, 255),
+        4px 2px 4px 4px rgba(255, 255, 255, 0.7),
+        4px 6px 8px 0px rgb(255, 253, 255),
+        4px 4px 16px 0px rgb(252, 243, 255);  
+
+    }
+}
+
+.balls {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+   
+  
+
+}
+.ball1 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    filter: drop-shadow(10px 60px 10px grey);
+    animation-name: ball_movement1;
+    animation-duration: 3s;
+    animation-direction:  normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+   
+   
+}
+
+@keyframes ball_movement1{
+    0% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+    25% {
+        transform: rotate(70deg) translateY(40px) translateX(-72px);
+    }
+    50% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+
+    100% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+}
+.ball2 {
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, blue,rgb(72, 119, 176));
+    filter: drop-shadow(10px 60px 10px grey);
+    border-radius: 50%;
+  
+}
+
+.ball3 {
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(88, 133, 187),aqua);
+    filter: drop-shadow(10px 60px 10px grey);
+    border-radius: 50%;
+    
+}
+.ball4 {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    filter: drop-shadow(10px 60px 10px grey);
+    border-radius: 50%;
+}
+.ball5 {
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right,aqua,rgb(72, 145, 145));
+    filter: drop-shadow(10px 60px 10px grey);
+    border-radius: 50%;
+}
+
+.ball6 {
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(72, 145, 145),rgb(14, 82, 82));
+    filter: drop-shadow(10px 60px 10px grey);
+    border-radius: 50%;
+}
+.ball7 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(14, 82, 82);
+    border-radius: 50%;
+    filter: drop-shadow(10px 60px 10px grey);
+    animation-name: ball_movement2;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+   
+}
+
+@keyframes ball_movement2 {
+    0% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+   
+   
+    25% {
+        transform:  rotate(-70deg) translateY(40px) translateX(72px);
+    }
+    50% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+}

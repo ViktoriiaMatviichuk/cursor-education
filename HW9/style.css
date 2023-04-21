@@ -8,13 +8,14 @@ background-color: #F4F6F9;
 background-image: url(./images/Group\ 10.svg);
 background-position: right;
 background-repeat: no-repeat;
+height: 665px;
 padding-top: 4%;
 padding-left: 12%;
 }
 
 .main_inform {
     display: grid;
-    width: 47%;
+    width: 46%;
 
 }
 .sports {
@@ -63,6 +64,7 @@ margin-bottom: 50px;
     font-family: 'Roboto';
 font-weight: 400;
 font-size: 10px;
+color: white;
 
 
 }
@@ -103,16 +105,19 @@ margin-left: 5px;
 
 .app_buttons {
     display: flex;
-    margin-bottom: 165px;
 
 }
 
-.video_view {
-    display: flex;
-    justify-content: space-around;
-    background-color: aquamarine;
-    padding-top: 7%;
+.app_store:hover {
+    cursor: pointer;
 }
+
+.app_store:active {
+    background-color: #d4d4d460;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+  
 
 .switch {
     position: relative;
@@ -178,8 +183,14 @@ margin-left: 5px;
     grid-template-columns: repeat(2,45%);
    position: relative;
    z-index: -1;
-   height: 600px;
+  
+   background-image:  linear-gradient(to right, rgb(255 255 255 / 0%), rgb(255 255 255/ 0%),rgba(255, 255, 255, 0.87), rgb(255 255 255)), url(./images/Rectangle\ \(3\).svg);
+   background-repeat: no-repeat;
+   background-size: 55%;
+   padding-top: 7%;
+   padding-bottom: 10%;
 }
+
 
 .match {
     width: 48%;
@@ -293,13 +304,31 @@ border: none;
 background: none;
 }
 
-.interface {
-    background-image: url(./images/SAMPLE05.svg);
-    padding-left: 12%;
-    padding-top: 15%;
+.football_experiense button:hover {
+    cursor: pointer;
 }
 
+.football_experiense button:active {
+    
+    color: #333333;
+}
 
+.interface {
+   display: flex;
+   justify-content: space-around;
+    padding-left: 10%;
+    align-items: center;
+    position: relative;
+}
+
+.mobile_phone {
+    position: absolute;
+    z-index: -1;
+}
+
+.get_started {
+    padding-top: 20%;
+}
 .interface p {
     font-family: 'Lato';
     font-weight: 700;
@@ -325,7 +354,7 @@ background: none;
     font-weight: 400;
     font-size: 16px;
     color: #4F4F4F;
-    margin-right: 30%;
+    text-align: left;
     margin-bottom: 3%;
     width: 45%;
     }
@@ -337,7 +366,16 @@ background: none;
     color: #00ADEE;
     border: none;
     background: none;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    }
+
+    .interface button:hover {
+        cursor: pointer;
+    }
+
+    .interface button:active {
+        
+        color: #333333;
     }
 
     .features {
@@ -390,6 +428,7 @@ background: none;
     .scroll {
         display: flex;
         gap: 36px;
+        width: 1440px;
     }
 
     .scroll div {
@@ -409,6 +448,76 @@ margin: 0;
 padding-bottom: 3%;
     }
 
+    .gradient {
+        position: relative;
+    }
+
+    .gradient:after {
+        position: absolute;
+        bottom: 0;  
+        height: 100%;
+        width: 100%;
+        content: "";
+        background: linear-gradient(to right, rgb(255 255 255 / 68%) 20%, rgb(255 255 255 / 0%) 80% );
+      }
+
+
+      .gradient2 {
+        position: relative;
+    }
+
+    .right_direction {
+        position: absolute;
+        background-color: #FFFFFF;
+        border-radius: 50% ;
+        padding: 6px 10px;
+        border: 2px solid #00ADEE;
+        top: 60px;
+    z-index: 2;
+    right: 10px;
+    }
+
+
+    .left_direction {
+        position: absolute;
+        background-color: #FFFFFF;
+        border-radius: 50% ;
+        padding: 6px 10px;
+        border: 2px solid #00ADEE;
+        top: 60px;
+    z-index: 2;
+   left: 10px;
+    }
+
+
+    .left_direction:active {
+        background-color: #d4d4d460;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      
+    }
+
+.left_direction:hover {
+    cursor: pointer;
+}
+    .right_direction:active {
+        background-color: #d4d4d460;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      
+    }
+   
+    .right_direction:hover {
+        cursor: pointer;
+    }
+    .gradient2:after {
+        position: absolute;
+        bottom: 0;  
+        height: 100%;
+        width: 100%;
+        content: "";
+        background: linear-gradient(to left, rgb(255 255 255 / 68%) 20%, rgb(255 255 255 / 0%) 80% );
+      }
     .noah h6:before  {
         content: url(./images/Ellipse.svg);
         margin-right: 2%;
@@ -436,6 +545,9 @@ padding-bottom: 3%;
         content: url(./images/twitter.svg);
         margin-left: 18%;
     }
+.darren button {
+    display: none;
+}
     .scroll p {
         font-family: 'Lato';
 font-style: normal;
@@ -452,25 +564,296 @@ margin: 0;
     .chanels {
         background-color: #FAFAFA;
         padding: 3% 12%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-  
-        
+    
     }
 
+ 
+    
     .chanels h3 {
         font-family: 'Lato';
         font-style: normal;
         font-weight: 700;
         font-size: 28px;
         color: #333333;
+        text-align: center;
 
     }
     
     .chanels_count {
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        align-items: center;
       
     }
+    .chanels_count img:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+ .my_scores_section {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+ }
+
+ 
+ .scores h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #333333;
+    margin-top: 15%;
+    margin-bottom: 7%;
+ }
+
+ .more_teams {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F4F4F;
+    margin-right: 22%;
+    margin-bottom: 7%;
+ }
+
+ .footer {
+    background-color: #00ADEE;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 12%;
+  
+ }
+
+ .footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+margin-right: 20px;
+ }
+
+
+.sports {
+    margin-top: 10%;
+}
+
+ .download {
+margin: 10% 0;
+ }
+
+
+ 
+
+ @media screen and (max-width:720px) {
+    .introduction {
+        margin-top: 1%;
+        background-image: none;   
+        padding:10% 0;
+       
+        height: auto;
+    }
+    .main_inform {
+        width: 100%;
+        text-align: center;
+    }
+
+    .app_buttons {
+        justify-content: space-around;
+    }
+    .app_store {
+        margin-right: 0;
+    }
+
+    .video_view {
+        display: grid;
+        grid-template-rows:  1fr 1.2fr;
+        grid-template-columns: 1fr;
+        background-image: none;
+        margin-bottom: 0;
+    }
+
+    .left_side {
+        z-index: 1;
+        position: unset;
+        grid-row-start: 2;
+        background-image:   linear-gradient(to top, rgb(255 255 255 / 0%), rgb(255 255 255/ 0%),rgba(255, 255, 255, 0.87), rgb(255 255 255)), url(./images/Rectangle\ \(3\).svg);
+        background-repeat: no-repeat;
+    }
+    .football_experiense {
+        z-index: 1;
+        position: unset;
+        grid-row-start: 1;
+        text-align: center;
+        margin-bottom: 10%;
+
+    }
+
+    .football_experiense article {
+        margin: 2% 10%;
+    }
+    .behind_box {
+        z-index: 1;
+        position: unset;
+        padding: 3%;
+    }
+.translation {
+    left: auto;
+    right: 5%;
+    top: 70%;
+}
+
+    .interface {
+        flex-direction: column;
+        padding: 5% 4%;
+        position: unset;
+    }
+    
+    .interface p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .interface h3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .interface article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .interface button {
+        margin-top: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .get_started {
+        padding: 0;
+    }
+
+
+    .mobile_phone {
+        width: 100%;
+     
+        position: unset;
+    }
+    .mobile_phone img {
+        width: 1200px;
+        margin-left: -600px;
+
+      
+    }
+
+    .features {
+        padding: 5% 3%;
+        width: 100%;
+        text-align: center;
+    }
+    .features_example {
+        grid-template-columns: 95%;
+        justify-content: center;
+    }
+
+    .reviews {
+        padding: 10% 2%;
+    }
+
+    .scroll {
+        padding: 10% 0;
+        justify-content: center;
+        height: 150px;
+
+    }
+   .michael {
+    display: none;
+   }
+
+   .noah {
+    display: none;
+   }
+   .gradient {
+    display: none;
+    
+   }
+   .gradient2 {
+    display: none;
+   }
+ .darren {
+    position: relative;
+    
+ }
+   .darren button {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    right: -20px;
+   }
+   
+   .chanels {
+    padding: 10% 0;
+   }
+    .chanels_count {
+     grid-template-columns: repeat(6,auto);
+     grid-template-rows: auto auto auto;
+     align-items: center;
+     justify-content: space-between;
+     justify-items: center;
+     gap: 20px;
+    }
+
+    .first_sp {
+
+        grid-column-end: span 3;
+    }
+    .second_sp {
+        grid-column-end: span 3;
+    }
+    .sp3 {
+        grid-column-end: span 2;
+    }
+    .sp4 {
+        grid-column-end: span 2;
+    }
+    .sp5 {
+        grid-column-end: span 2;
+    }
+    .sp6 {
+        grid-column-end: span 6;
+    }
+    .my_scores_section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .background img{
+        width: 100%;
+    }
+    .scores {
+        text-align: center;
+
+    }
+    .more_teams  {
+        text-align: center;
+        margin-right: 0;
+        padding: 10px;
+    }
+    .app_buttons {
+        margin-bottom: 10%;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 0 5% ;
+    }
+    .social_media {
+        margin-top: 2%;
+    }
+    .download {
+        display: flex;
+        justify-content: space-between;
+        order: 3;
+    }
+   }
