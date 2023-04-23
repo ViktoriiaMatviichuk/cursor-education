@@ -1,0 +1,53 @@
+.form-group {
+    position: relative;
+font-size: 14px;
+color: #DBDBDB;
+border-color: #DBDBDB;
+padding: 5px;
+}
+
+
+.magnifier {
+    position: absolute;
+    opacity: 30%;
+    width: 9px;
+    height: 9px;
+    left: 140px;
+    top: 14px;
+}
+
+
+.img-thumbnail {
+    border: none;
+}
+
+.dots {
+    width: 45px;
+    height: 45px;
+}
+
+.dots:hover {
+    cursor: pointer;
+}
+.link-dark {
+    text-decoration: none;
+   
+}
+
+.content {
+    color: gray;
+    padding-top: 20px;
+}
+.content:hover {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    color: black;
+}
+
+.line {
+    position: absolute;
+    z-index: -1;
+    top: 552px;
+    max-width: 1320px;
+    
+}
