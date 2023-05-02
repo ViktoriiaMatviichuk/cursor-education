@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(85.81%, #0A1E27), color-stop(94.68%, rgba(10, 30, 39, 0.4)), color-stop(100.15%, rgba(10, 30, 39, 0)));
+  background: linear-gradient(0deg, #0A1E27 85.81%, rgba(10, 30, 39, 0.4) 94.68%, rgba(10, 30, 39, 0) 100.15%);
+}
+
+.introduction {
+  background-image: url(./images/mountain.svg);
+  padding: 30px 90px;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 10%;
+}
+
+.article__header {
+  font-family: "Playfair Display";
+  color: white;
+  margin-bottom: 0px;
+}
+
+.heeader_size_m {
+  font-weight: 400;
+  font-size: 100px;
+}
+
+.article__subtitle {
+  color: #D3BA74;
+  font-family: "Poppins";
+  letter-spacing: 0.24em;
+  margin-top: 0;
+}
+
+.subtitle_size_m {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+
+.article__text {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 3%;
+  line-height: 24px;
+}
+
+.article__text_width {
+  width: 40%;
+}
+
+.button {
+  border: 1px solid white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  background: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 20%;
+}
+
+.button__text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main-content {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(85.81%, #0A1E27), color-stop(94.68%, rgba(10, 30, 39, 0.4)), color-stop(100.15%, rgba(10, 30, 39, 0)));
+  background: linear-gradient(0deg, #0A1E27 85.81%, rgba(10, 30, 39, 0.4) 94.68%, rgba(10, 30, 39, 0) 100.15%);
+  padding: 40px 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image-block__elem {
+  width: 512px;
+  height: 512px;
+}
+
+.article {
+  padding-left: 175px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.heeader_size_s {
+  font-size: 70px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.subtitle_size_s {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 15%;
+}
+
+.number-block {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+}
+
+.number-block_tiny-elem {
+  margin-left: 15px;
+}
+
+.article__subtitle-line {
+  border: solid #D3BA74 3px;
+  width: 30px;
+}
+
+.image-slide-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 90px;
+}
+
+.main-content__rl-elem {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.summaries-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 5% 10%;
+}
+
+.summaries-block__count-elem {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.13);
+  margin: 0;
+  padding: 0;
+}
+
+.summaries-block__elem {
+  text-align: center;
+}
+
+.line-block {
+  color: rgba(255, 255, 255, 0.2);
+  opacity: 20%;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.extention-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 90px;
+}
+
+.extention-article {
+  padding-left: 0;
+  padding-right: 30px;
+  width: 40%;
+}
+
+.icons-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20%;
+}
